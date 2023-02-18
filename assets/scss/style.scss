@@ -1,0 +1,202 @@
+@import 'default';
+
+$white: #F5F5F7;
+;
+$black: #000000;
+$blue: #2997FF;
+$darkred: rgb(124, 12, 12);
+$lightgrey: #6E6E73;
+
+@mixin font($weight,$size){
+    font-weight: $weight;
+    font-size: $size;
+}
+
+@mixin cover($height) {
+    padding-top: $height;
+    width: 100%;
+    position: relative;
+    img, .content{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+h1{
+    @include font(700,50px);
+    color: $white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2{
+    @include font(700,37px);
+    color: $white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    @include font(400,28px);
+    color: $white;
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+
+    .wrapper {
+        width: 1024px;
+        margin: 0 auto;
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+
+            svg {
+                transition: 0.5s;
+
+                &:hover {
+                    scale: 1.2;
+                    cursor: pointer;
+                }
+            }
+
+            nav a {
+                margin-right: 25px;
+                color: $lightgrey;
+                transition: 0.5s;
+                
+
+                &:last-child {
+                    margin: 0;
+                }
+
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+
+        .main {
+            margin-top: 18px;
+            h1 {
+                color: $white;
+                text-align: center;
+            }
+            .btn{
+                width: 265px;
+                height: 50px;
+                background-color: $black;
+                border-radius: 980px;
+                font-weight: 400;
+                font-size: 17px;
+                color: $lightgrey;
+                border-color: rgba(201, 57, 194, 0.966);
+                position: relative;
+                left: 37%;
+                margin-top: 33px;
+                transition: 0.5s;
+                &:hover{
+                    color: $white;
+                    cursor: pointer;
+                    border-color: #0e54ecf5;
+                }
+            }
+        }
+        .MacBook{
+            margin-top: 130px;
+            nav a{
+                font-size: 21px;
+                margin-right: 20px;
+                color: $lightgrey;
+                position: relative;
+                left: 40%;
+                transition: 0.5s;
+                &:hover{
+                    color: $blue;
+                }
+            }
+            .img{
+                width: 100%;
+                .img-cover{
+                    padding-top: 42%;
+                    background: url(../img/macbook.jpg) no-repeat;
+                    background-size: cover;
+                    border-radius: 10px;
+                    transition: 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        scale: 0.9;
+                    }
+                }
+            }
+        }
+        .MacMini{
+            margin-top: 130px;
+            nav a{
+                font-size: 21px;
+                margin-right: 20px;
+                color: $lightgrey;
+                position: relative;
+                left: 40%;
+                transition: 0.5s;
+                &:hover{
+                    color: $blue;
+                }
+            }
+            .img{
+                width: 100%;
+                .img-cover{
+                    padding-top: 35%;
+                    background: url(../img/macmini.jpeg) no-repeat;
+                    background-size: cover;
+                    border-radius: 8px;
+                    transition: 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        scale: 0.9;
+                    }
+                }
+            }
+        }
+        .HomePod{
+            margin-top: 130px;
+            nav a{
+                font-size: 21px;
+                margin-right: 20px;
+                color: $lightgrey;
+                position: relative;
+                left: 39%;
+                transition: 0.5s;
+                &:hover{
+                    color: $blue;
+                }
+            }
+            .img{
+                width: 100%;
+                .img-cover{
+                    padding-top: 50%;
+                    background: url(../img/homepod.jpg) no-repeat;
+                    background-size: cover;
+                    border-radius: 10px;
+                    transition: 0.5s;
+                    &:hover{
+                        cursor: pointer;
+                        scale: 0.9;
+                    }
+                }
+            }
+        }
+    }
+    .items{
+        margin-top: 150px;
+    }
+}

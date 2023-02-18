@@ -1,0 +1,23 @@
+{
+  "name": "appleproducts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node-sass": "sass -w assets/scss/:assets/css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxinator228/AppleProducts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxinator228/AppleProducts/issues"
+  },
+  "homepage": "https://github.com/Maxinator228/AppleProducts#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

@@ -1,0 +1,189 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  background-color: transparent;
+}
+
+input[type=text] {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+p, h1, h2, h3, h4, h5, h6, body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  color: #F5F5F7;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 37px;
+  color: #F5F5F7;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 28px;
+  color: #F5F5F7;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #000000;
+}
+body .wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+body .wrapper header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+body .wrapper header svg {
+  transition: 0.5s;
+}
+body .wrapper header svg:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+body .wrapper header nav a {
+  margin-right: 25px;
+  color: #6E6E73;
+  transition: 0.5s;
+}
+body .wrapper header nav a:last-child {
+  margin: 0;
+}
+body .wrapper header nav a:hover {
+  color: #F5F5F7;
+}
+body .wrapper .main {
+  margin-top: 18px;
+}
+body .wrapper .main h1 {
+  color: #F5F5F7;
+  text-align: center;
+}
+body .wrapper .main .btn {
+  width: 265px;
+  height: 50px;
+  background-color: #000000;
+  border-radius: 980px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #6E6E73;
+  border-color: rgba(201, 57, 194, 0.966);
+  position: relative;
+  left: 37%;
+  margin-top: 33px;
+  transition: 0.5s;
+}
+body .wrapper .main .btn:hover {
+  color: #F5F5F7;
+  cursor: pointer;
+  border-color: rgba(14, 84, 236, 0.9607843137);
+}
+body .wrapper .MacBook {
+  margin-top: 130px;
+}
+body .wrapper .MacBook nav a {
+  font-size: 21px;
+  margin-right: 20px;
+  color: #6E6E73;
+  position: relative;
+  left: 40%;
+  transition: 0.5s;
+}
+body .wrapper .MacBook nav a:hover {
+  color: #2997FF;
+}
+body .wrapper .MacBook .img {
+  width: 100%;
+}
+body .wrapper .MacBook .img .img-cover {
+  padding-top: 42%;
+  background: url(../img/macbook.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+body .wrapper .MacBook .img .img-cover:hover {
+  cursor: pointer;
+  scale: 0.9;
+}
+body .wrapper .MacMini {
+  margin-top: 130px;
+}
+body .wrapper .MacMini nav a {
+  font-size: 21px;
+  margin-right: 20px;
+  color: #6E6E73;
+  position: relative;
+  left: 40%;
+  transition: 0.5s;
+}
+body .wrapper .MacMini nav a:hover {
+  color: #2997FF;
+}
+body .wrapper .MacMini .img {
+  width: 100%;
+}
+body .wrapper .MacMini .img .img-cover {
+  padding-top: 35%;
+  background: url(../img/macmini.jpeg) no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  transition: 0.5s;
+}
+body .wrapper .MacMini .img .img-cover:hover {
+  cursor: pointer;
+  scale: 0.9;
+}
+body .wrapper .HomePod {
+  margin-top: 130px;
+}
+body .wrapper .HomePod nav a {
+  font-size: 21px;
+  margin-right: 20px;
+  color: #6E6E73;
+  position: relative;
+  left: 39%;
+  transition: 0.5s;
+}
+body .wrapper .HomePod nav a:hover {
+  color: #2997FF;
+}
+body .wrapper .HomePod .img {
+  width: 100%;
+}
+body .wrapper .HomePod .img .img-cover {
+  padding-top: 50%;
+  background: url(../img/homepod.jpg) no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+body .wrapper .HomePod .img .img-cover:hover {
+  cursor: pointer;
+  scale: 0.9;
+}
+body .items {
+  margin-top: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */
